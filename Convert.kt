@@ -16,7 +16,7 @@ fun main() {
     val unit = readLine()?.toLowerCase()
 
      // Perform the appropriate conversion
-    val result = when (unit) {
+     val result = when (unit) {
         "km" -> value * 0.62
         "mi" -> value * 1.61
         "cm" -> value * 0.39
@@ -35,4 +35,6 @@ fun main() {
             return
         }
     }
+    // Display the converted value
+    println("Converted value: $result")
 }
