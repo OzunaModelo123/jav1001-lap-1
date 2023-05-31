@@ -11,5 +11,9 @@ fun main() {
         return
     }
 
+    // Collect the current unit of measurement
+    print("Enter the current unit of measurement: ")
+    val unit = readLine()?.toLowerCase()
+
     
 }
